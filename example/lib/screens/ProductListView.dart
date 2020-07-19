@@ -5,7 +5,7 @@ import 'package:transformer_page_view/transformer_page_view.dart';
 
 class ProductListView extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() {
+  State<StatefulWidget> get createState {
     return new ProductListViewState();
   }
 }
